@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import NavItem from "../../molecules/NavItem/NavItem";
 import Logo from "../../atoms/Logo/Logo";
 import TopNav from "../../molecules/TopNav/TopNav";
+import { BiAlignRight } from "react-icons/bi";
 
 const Navbar = () => {
   return (
@@ -20,6 +21,9 @@ const Navbar = () => {
         <Link to="/" className="bg-orange-400 border-l items-center flex px-5">
         Contact
       </Link>
+      </div>
+      <div className="md:hidden flex bg-orange-200 p-5 border-l">
+        <BiAlignRight className=" text-2xl  "/>
       </div>
       
     </nav>
