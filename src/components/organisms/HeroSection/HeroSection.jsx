@@ -4,7 +4,7 @@ import SubHeader from "../../molecules/SubHeader/SubHeader";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-10 py-16 ">
+    <section className="flex flex-col md:flex-row items-center justify-around px-10 py-16 ">
       
       <img src={HeroImage} alt="Hero" className="md:w-1/3 " />
       
